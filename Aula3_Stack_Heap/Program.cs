@@ -27,6 +27,18 @@ namespace Aula3_Stack_Heap
 
     public class class1
     {
+        public string nome
+        {
+            get
+            {
+                return nome;
+            }
+            set
+            {
+                nome = value.ToUpper();
+            }
+        }    
+        
         public int i;
     }
 
